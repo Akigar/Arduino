@@ -10,7 +10,7 @@ void setup() {
 
 void loop() {
 
-  if (Serial.available() > 0 ){
+  if (Serial.available() > 1 ){
     char message = Serial.read();
 
     if (message == 'u'){
